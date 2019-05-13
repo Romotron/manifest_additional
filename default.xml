@@ -24,7 +24,7 @@
            sync-c="true"
            sync-j="4" />
   
-  <project path="uefi/edk2" name="efidroid/edk2" />
+  <project path="uefi/edk2" name="efidroid/edk2" revision="master-lk" />
   <project path="uefi/lkl" name="lkl/linux" />
   <project path="build" name="efidroid/build" revision="3dc4c5b4d39120a0428d839e455f11eadc90bf8e">
     <copyfile src="core/root.mk" dest="Makefile" />
